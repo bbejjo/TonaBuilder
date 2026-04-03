@@ -25,7 +25,9 @@ export function FeedbackCard({ item, index }: FeedbackCardProps) {
       viewport={{ once: true, amount: 0.25 }}
       transition={{ duration: 0.55, delay: index * 0.08, ease: "easeOut" }}
     >
-      <p className="flex-1 text-base leading-8 text-blue-800">"{item.quote}"</p>
+      <p className="flex-1 text-base leading-8 text-blue-800">
+        &ldquo;{item.quote}&rdquo;
+      </p>
       <div className="mt-6 border-t border-blue-200 pt-4">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-3">
