@@ -17,13 +17,13 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-8 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent" />
 
       <div className="page-shell relative">
-        <div className="grid min-h-[calc(100svh-8rem)] items-center gap-10 lg:min-h-0 lg:grid-cols-[0.82fr_1.18fr] lg:gap-14">
-          <div className="mx-auto flex max-w-4xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
+        <div className="grid min-h-[calc(100svh-8rem)] justify-items-center items-center gap-10 lg:min-h-0 lg:grid-cols-[0.82fr_1.18fr] lg:justify-items-stretch lg:gap-14">
+          <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.08 }}
-              className="max-w-3xl text-4xl font-extrabold leading-[0.95] text-blue-950 sm:text-5xl lg:text-6xl"
+              className="mx-auto max-w-3xl text-4xl font-extrabold leading-[0.95] text-blue-950 sm:text-5xl lg:mx-0 lg:text-6xl"
             >
               მძიმე ტექნიკის გაქირავება
               <span className="mt-2 block text-tona-600">
@@ -35,7 +35,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.16 }}
-              className="mt-6 max-w-xl text-base leading-8 text-blue-700 sm:text-lg"
+              className="mx-auto mt-6 max-w-xl text-base leading-8 text-blue-700 sm:text-lg lg:mx-0"
             >
               TONA გთავაზობთ ექსკავატორების, ამწეების, თვითმცლელების და
               სამშენებლო მხარდაჭერის მომსახურებას საქართველოში. როცა პროექტს
