@@ -18,7 +18,7 @@ export function Hero() {
 
       <div className="page-shell relative flex min-h-[calc(100svh-7rem)] items-center justify-center lg:min-h-0 lg:block">
         <div className="grid w-full justify-items-center items-center gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:justify-items-stretch lg:gap-14">
-          <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
+          <div className="mx-auto flex w-full max-w-[40rem] flex-col items-center text-center lg:mx-0 lg:max-w-4xl lg:items-start lg:text-left">
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.24 }}
-              className="mt-9 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start"
+              className="mt-9 flex w-full flex-col items-center justify-center gap-4 sm:flex-row sm:justify-center lg:justify-start"
             >
               <a href="#contact" className="button-primary">
                 მოითხოვე კონსულტაცია
