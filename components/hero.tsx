@@ -11,13 +11,13 @@ export function Hero() {
     <section
       id="main"
       data-section
-      className="section-shell relative overflow-hidden pt-14 sm:pt-20"
+      className="section-shell relative overflow-hidden pb-10 pt-14 sm:pt-20 lg:pb-28"
     >
       <div className="section-grid pointer-events-none absolute inset-0 opacity-40" />
       <div className="pointer-events-none absolute inset-x-0 top-8 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent" />
 
-      <div className="page-shell relative">
-        <div className="grid min-h-[calc(100svh-8rem)] justify-items-center items-center gap-10 lg:min-h-0 lg:grid-cols-[0.82fr_1.18fr] lg:justify-items-stretch lg:gap-14">
+      <div className="page-shell relative flex min-h-[calc(100svh-7rem)] items-center justify-center lg:min-h-0 lg:block">
+        <div className="grid w-full justify-items-center items-center gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:justify-items-stretch lg:gap-14">
           <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
