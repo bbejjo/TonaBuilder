@@ -27,7 +27,7 @@ export function Hero() {
             >
               მძიმე ტექნიკის გაქირავება
               <span className="mt-2 block text-tona-600">
-                სანდოდ, სწრაფად და პროფესიონალურად
+                სანდოდ და პროფესიონალურად
               </span>
             </motion.h1>
 
