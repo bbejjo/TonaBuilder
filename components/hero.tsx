@@ -17,8 +17,8 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-8 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent" />
 
       <div className="page-shell relative">
-        <div className="grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-center lg:gap-14">
-          <div className="max-w-4xl">
+        <div className="grid min-h-[calc(100svh-8rem)] items-center gap-10 lg:min-h-0 lg:grid-cols-[0.82fr_1.18fr] lg:gap-14">
+          <div className="mx-auto flex max-w-4xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.24 }}
-              className="mt-9 flex flex-col gap-4 sm:flex-row"
+              className="mt-9 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start"
             >
               <a href="#contact" className="button-primary">
                 მოითხოვე კონსულტაცია
@@ -64,7 +64,7 @@ export function Hero() {
             initial={{ opacity: 0, x: 32, scale: 0.98 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
             transition={{ duration: 0.9, ease: "easeOut", delay: 0.18 }}
-            className="relative order-last lg:order-none"
+            className="relative order-last hidden lg:block"
           >
             <div className="industrial-frame overflow-hidden rounded-[34px] border border-blue-200/80 bg-white/60 shadow-panel backdrop-blur-sm">
               <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:aspect-[6/7]">
